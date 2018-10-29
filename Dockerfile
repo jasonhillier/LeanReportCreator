@@ -10,4 +10,4 @@ RUN tar -xvf /LeanReportCreator/open-sans-condensed.tar -C /usr/share/fonts/true
 ENTRYPOINT ["python", "GenerateReportDocker.py"]
 
 #Usage:
-#docker run -i --rm jasonhillier/lean-report-creator < ./json/sample.json > ./report.html
+#docker run -i --rm lean-report-creator < ./json/sample.json > ./report.html
